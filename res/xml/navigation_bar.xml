@@ -49,11 +49,9 @@
         <Preference
             android:key="default_settings"
             android:title="@string/default_settings"
-            android:summary="@string/default_settings_summary">
-                <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.android.systemui"
-                    android:targetClass="com.android.systemui.tuner.NavBarActivity" />
-        </Preference>
+            android:summary="@string/default_settings_summary"
+            android:fragment="com.android.settings.gestures.GestureSettings" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
