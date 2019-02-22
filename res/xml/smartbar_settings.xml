@@ -51,7 +51,7 @@
         android:entryValues="@array/smartbar_longpress_delay_values"
         android:summary="@string/smartbar_longpress_delay_summary" />
 
-    <com.nitrogen.settings.preferences.CustomSeekBarPreference
+    <com.legion.settings.preferences.CustomSeekBarPreference
         android:key="navbar_buttons_alpha"
         android:title="@string/navbar_buttons_alpha_title"
         settings:defaultText="@string/value_equals_default"
@@ -60,7 +60,7 @@
         settings:units=""
         android:persistent="false" />
 
-    <com.nitrogen.settings.preferences.CustomSeekBarPreference
+    <com.legion.settings.preferences.CustomSeekBarPreference
         android:key="smartbar_custom_icon_size"
         android:title="@string/smartbar_custom_icon_size_title"
         settings:defaultText="@string/value_equals_default"
@@ -69,7 +69,7 @@
         settings:units="%"
         android:persistent="false" />
 
-    <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
+    <com.legion.settings.preferences.SecureSettingSwitchPreference
         android:key="smartbar_doubletap_sleep"
         android:title="@string/smartbar_double_tap_sleep_title"
         android:summary="@string/smartbar_double_tap_sleep_summary"

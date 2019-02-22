@@ -32,7 +32,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 
-import com.nitrogen.settings.preferences.CustomSeekBarPreference;
+import com.legion.settings.preferences.CustomSeekBarPreference;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
@@ -195,6 +195,6 @@ public class NavigationBarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.LEGION_SETTINGS;
     }
 }
