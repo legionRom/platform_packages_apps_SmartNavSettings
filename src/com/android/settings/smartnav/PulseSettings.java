@@ -276,6 +276,6 @@ public class PulseSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LEGION_SETTINGS;
+        return MetricsProto.MetricsEvent.LEGION;
     }
 }
