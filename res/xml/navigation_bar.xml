@@ -83,10 +83,10 @@
                 android:max="135"
                 settings:min="65"
                 settings:units="%" />
-        <PreferenceScreen
+<!--        <PreferenceScreen
             android:key="pulse_settings"
             android:title="@string/pulse_settings"
             android:summary="@string/pulse_settings_summary"
-            android:fragment="com.android.settings.smartnav.PulseSettings" />
+            android:fragment="com.android.settings.smartnav.PulseSettings" /> -->
     </PreferenceCategory>
 </PreferenceScreen>

@@ -122,7 +122,7 @@
     <string name="fling_config_backup_error_toast">Error saving Fling profile</string>
     <string name="fling_config_restore_error_toast">Error restoring Fling profile</string>
 
-    <!-- Pulse navigation bar music visualizer -->
+    <!-- Pulse navigation bar music visualizer
     <string name="pulse_help_policy_notice_summary">Pulse does not work with some audio sources when listening on device speaker</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Navigation bar audio graphic equalizer</string>
@@ -147,11 +147,10 @@
     <string name="pulse_auto_color_title">Automatic Pulse color</string>
     <string name="pulse_auto_color_summary">Sync color with album arts. Overrides Lava Lamp and lines opacity.</string>
 
-    <!-- Pulse config -->
     <string name="pulse_custom_dimen">Bar width</string>
     <string name="pulse_custom_div">Bar spacing</string>
     <string name="pulse_filled_block_size">Block size</string>
-    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_empty_block_size">Block spacing</string> -->
 
     <!-- Navbar height -->
     <string name="navigation_bar_size_title">Bar size</string>
