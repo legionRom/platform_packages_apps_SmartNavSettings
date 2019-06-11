@@ -71,9 +71,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.pulse_settings);
 
-        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.pulse_help_policy_notice_summary);
 
         mShowPulse = (SwitchPreference) findPreference("eos_fling_show_pulse");
         mShowPulse.setChecked(Settings.Secure.getIntForUser(getContentResolver(),

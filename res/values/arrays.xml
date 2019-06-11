@@ -111,7 +111,7 @@
         <item>5</item>
     </string-array>
 
-    <!-- Pulse config -->
+    <!-- Pulse config 
     <string-array name="pulse_render_mode_entries">
        <item>@string/pulse_render_mode_fading_bars</item>
        <item>@string/pulse_render_mode_solid_lines</item>
@@ -120,6 +120,6 @@
     <string-array name="pulse_render_mode_values" translatable="false">
       <item>0</item>
       <item>1</item>
-    </string-array>
+    </string-array> -->
 
 </resources>
